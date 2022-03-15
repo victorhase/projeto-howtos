@@ -1,0 +1,120 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.button:link,
+.button:focus,
+.button:visited {
+
+  background-color: transparent;
+  border: 2px solid #1077d0;
+  border-radius: 100em;
+  color: #1077d0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  font-size: 1em;
+  line-height: 1.28571em;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  margin-top: 0.85714em;
+  margin-bottom: 0.85714em;
+
+  
+  }
+  .button:hover {
+    background-color: blue;
+    color:white;
+  }
+  
+    
+  .wrapper {
+
+  margin: 0 auto;
+  max-width: 114.3rem;
+  }
+
+  .accordion__child {
+
+      background-color: #fff;
+      color: #222;
+      padding-bottom: 1rem;
+      padding-left: calc(24px + 1.28571em);
+      padding-top: 1rem;
+      font-size: inherit;
+      line-height: inherit;
+      margin: inherit;
+      max-width: inherit;
+
+  
+    }
+
+    .accordion__toggle:hover {
+      background-color: rgb(189, 184, 184);
+      background-image: linear-gradient(90deg, #1077d0 0%, #1077d0 8px, transparent 8px, transparent 100%);
+
+
+
+    }
+
+
+    .accordion__toggle {
+    
+    background: transparent;
+    box-sizing: border-box;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+    padding: 0.42857em 8px 0.42857em 24px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    text-decoration: none;
+    background-color: #fa1c1c;
+    background-color: #fff;
+    color: #222;
+    padding-bottom: 1rem;
+    padding-left: calc(24px + 1.28571em);
+    padding-top: 1rem;
+    text-decoration: underline;  
+
+  }
+
+  .acordion__inner{background:#fff;position:relative;transition:max-height 150ms ease-in;z-index:2}
+  .accordion__label{margin-bottom:0;min-width:0}
+
+  .accordion--clear{
+  background-color: #f2f2f2;
+  background-color: #fff;
+  color: #222;
+  padding-bottom: 1rem;
+  padding-left: calc(24px + 1.28571em);
+  padding-top: 1rem;
+  
+}
+  .accordion--highlight{
+  background-color: #fa1c1c;
+  background-color: #fff;
+  color: #222;
+  padding-bottom: 1rem;
+  padding-left: calc(24px + 1.28571em);
+  padding-top: 1rem;
+}
